@@ -19,7 +19,7 @@ export default function Footer({setShow}){
     return (
     <div className="main-nav">
         <BrowserRouter>
-               <nav>
+               <nav className='foot'>
                     <ul className="nav-links">
                         <li>Copyright 2021 &copy;</li>
                         <li>All Rights Reserved</li>
