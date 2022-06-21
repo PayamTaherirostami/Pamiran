@@ -1,0 +1,106 @@
+/*************************** Google *****************/
+.GG_nav nav {
+    /*    border-top:1px dotted #666;*/
+    border-radius: 15px;
+    height: 210px;
+    line-height: 70px;
+    background: rgb(34, 139, 243);
+    clear: both;
+    color: red;
+    margin-top: 30px;
+  }
+  .G_navCust nav {
+    /*    border-top:1px dotted #666;*/
+    border-radius: 15px;
+    height: 70px;
+    line-height: 70px;
+    background: rgb(34, 139, 243);
+    clear: both;
+    color: red;
+    /* margin-top: 30px; */
+  }
+
+  .Login ul {
+    list-style-type: none;
+  }
+  .Login li {
+    float: left;
+    width: 20%;
+       display: inline;
+    text-align:center;
+  }
+  .Login a {
+    text-decoration: none;
+    /*    underlino n=barmidare*/
+    display: block;
+    /*    range itemo kolan avaz mikone*/
+    color: white;
+  }
+
+  .login ul h6{
+    color:red;
+  }
+   ul h6:hover {
+    border-radius: 15px;
+
+    color:  rgb(34, 139, 243);
+    height:20px;
+    /* background-image: url(../public/images/73c09671327c76f66fce1c83a337ae0d.jpg);
+    background-attachment: fixed;
+    font-size:100% */
+   
+  }
+  .Login img{
+    width: 100px;
+    float:right;
+    margin:10px;
+    margin-top: 0px;
+  }
+  .Login button{
+    width: 180px;
+    margin:10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+
+   
+  }
+  
+  .Login h6{
+      color: red;
+    margin:25px;
+    font-size: .85em;
+  }
+  .link4gmail{
+    /* background-color: yellow; */
+    width: 300px;
+  }
+
+  /* .Login h6 a:hover {
+    /* border-radius: 15px; */
+    /* background: red;
+    color: aqua;
+  }  */
+  .noti2{
+    width: 20px;
+   margin-top: -30px;
+   margin-left: -90px;
+   cursor: pointer;
+   position: relative;
+
+  }
+
+  .counterCust{
+    width: 10px;
+    height: 10px;
+    /* background-color: darkblue; */
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -4px;
+    right: 5px;
+    background-color: #000;
+  }
